@@ -3,6 +3,7 @@
 And here you can see many other documents, such as ER-models.
 <br />
 <br />Screenshots:
+<br />
 ![alt tag](screenshot1.png)
 <br />
 ![alt tag](screenshot2.png)
