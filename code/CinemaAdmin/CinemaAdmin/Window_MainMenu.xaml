@@ -1,0 +1,19 @@
+﻿<Window x:Class="CinemaAdmin.Window_MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CinemaAdmin"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Title="CinemaAdmin - Главное меню" Height="458.667" Width="444.526" Style="{DynamicResource defStyle}">
+    <Grid>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="176" Margin="128,7,0,0" VerticalAlignment="Top" Width="206"/>
+        <Button x:Name="button1" Content="Фильмы" Margin="27,168,35,0" VerticalAlignment="Top" Height="29" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Продавать билеты" Margin="27,208,35,0" VerticalAlignment="Top" Height="29" Click="button2_Click"/>
+        <Button x:Name="button3" Content="Сеансы" Margin="27,248,35,0" VerticalAlignment="Top" Height="29" Click="button3_Click"/>
+        <Button x:Name="button4" Content="Кинозалы" Margin="27,288,35,0" VerticalAlignment="Top" Height="29" Click="button4_Click"/>
+        <Button x:Name="button5" Content="О авторе" Margin="31,376,31,0" VerticalAlignment="Top" Height="29" Click="button5_Click"/>
+    </Grid>
+</Window>

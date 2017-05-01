@@ -1,0 +1,23 @@
+﻿<Window x:Class="CinemaAdmin.Window_SeanceRedactor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CinemaAdmin"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="CinemaAdmin - Сеансы" Height="244.667" Width="311.333" Style="{DynamicResource defStyle}">
+    <Grid Margin="0,0,2,1">
+        <Grid Margin="0,0,0,45">
+            <Label x:Name="label" Content="Дата и время сеанса" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+            <xctk:DateTimePicker x:Name ="dateTimePicker" Margin="10,32,11,0" Height="18" VerticalAlignment="Top" ></xctk:DateTimePicker>
+            <Label x:Name="label_Copy" Content="Кинозал" HorizontalAlignment="Left" Margin="11,111,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="label_Copy1" Content="Фильм" HorizontalAlignment="Left" Margin="11,59,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="labelEditFilm" Content="Редактировать..." HorizontalAlignment="Left" Margin="11,79,0,0" VerticalAlignment="Top" Foreground="#FF2816E0" FontStyle="Italic" MouseDown="labelEditFilm_MouseDown"/>
+            <Label x:Name="labelEditCinemaRoom" Content="Редактировать..." HorizontalAlignment="Left" Margin="13,131,0,0" VerticalAlignment="Top" Foreground="#FF2816E0" FontStyle="Italic" MouseDown="labelEditCinemaRoom_MouseDown"/>
+
+        </Grid>
+        <Button x:Name="buttonOk" Content="Ок" HorizontalAlignment="Left" Margin="10,0,0,21" VerticalAlignment="Bottom" Width="75" Click="button_Click"/>
+        <Button x:Name="buttonCancel" Content="Отмена" HorizontalAlignment="Left" Margin="100,0,0,21" VerticalAlignment="Bottom" Width="75" Click="buttonCancel_Click"/>
+    </Grid>
+</Window>
